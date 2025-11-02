@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介</title>
+    <style>
+        :root {
+            --primary: #4299e1;
+            --light-gray: #f8f9fa;
+            --dark-gray: #343a40;
+            --gray: #6c757d;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+        body {
+            background-color: var(--light-gray);
+            color: var(--dark-gray);
+            line-height: 1.7;
+            padding: 40px 0;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .avatar-wrapper {
+            flex-shrink: 0;
+        }
+        .avatar {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+        }
+        .profile-info h1 {
+            font-size: 26px;
+            margin-bottom: 8px;
+            color: var(--dark-gray);
+        }
+        .profile-role {
+            color: var(--primary);
+            font-weight: 500;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        .profile-intro {
+            font-size: 15px;
+            color: var(--gray);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        .section {
+            margin-bottom: 35px;
+        }
+        .section-title {
+            </div> 20px;
+            底边距： 18px；
+            <! -- 技能模块 --> 8px；
+            <div班级="节"> 1px 固体 #eee；
+            <h2班级="节标题">核心技能</h2> var(--深灰色)；
+        }
+        .技能-列表 {
+            显示： 弯曲；
+            柔性缠绕： 包；
+            差距： 10px；
+        }
+        .技能 {
+            background-color: rgba(66, 153<span班级="技能">响应式设计</span> 225, 0.1);
+            color: var(--primary);
+            padding: 6px 14px;
+            </div> 20px;
+            font-size: 14px;
+        }
+        .contact-list {
+            list-style: none;
+        }
+        .contact-item {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 15px;
+        }
+        .contact-icon {
+            color: var(--primary);
+            font-size: 18px;
+            width: 20px;
+            text-align: center;
+        }
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .social-link {
+            color: var(--primary);
+            background-color: rgba(66, 153, 225, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .social-link:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .profile-container {
+                padding: 20px;
+                margin: 0 15px;
+            }
+            .轮廓标头 {
+                弯曲方向： 柱；
+                文字对齐： 中心；
+                差距： 20px；
+            }
+            .技能-列表 {
+                justify-content： 中心；
+            }
+        }
+    </style>
+    <链接 rel="样式表" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div 班级="配置文件-容器">
+        <!-- 头像与基础信息 -->
+        <div 班级="配置文件-页眉“”>
+<div班级="<">班级="头像包装">">">班级="头像包装">">
+<img src="975588ifh0"alt="个人头像"班级="头像">班级="头像">"alt="个人头像"班级="头像">src="975588ifh0">个人头像" 班级="头像">班级="头像">"alt="个人头像" 班级="头像">
+</</div>>
+<<div班级="<">班级="配置文件信息">">">班级="配置文件信息">班级="配置文件信息">">
+<h1>李华</h1>
+<p班级="配置文件-角色">前端开发工程师|技术爱好者</p>>前端开发工程师|技术爱好者</p>"配置文件-角色""配置文件-角色">前端开发工程师|技术爱好者</p>>前端开发工程师|技术爱好者</p>"配置文件-角色"
+<p班级="<p班级="配置文件简介">>""<p班级="配置文件简介">>"
+专注前端开发3年，擅长Vue、React等框架，热衷于打造高性能、高可用性的Web应用.
+注重代码质量与用户体验，喜欢探索前沿技术并应用到实际项目中，保持持续学习的态度。
+</p>
+<div<div班级="<div班级=<div班级=
+<a
+<a
+<a
+<a
+</
+</
+</
+
+<!
+<<<<div班级=">班级="节">div班级=“”节">">"
+<h2班级="<h2班级=<h2班级="节标题">核心技能</h2>>核心技能</h2>>""节标题">核心技能</h2>>核心技能</h2>""节标题">
+<<<<div班级="<">班级="技能列表"技能列表">">班级="技能列表">班级=">班级=>"
+<span班级=<span班级="技能">HTML5/CSS3</span>>HTML5/CSS3</span>>HTML5/CSS3</span>>HTML5/CSS3</span>""技能"技能“”
+<span班级=<span班级="技能"技能""<span班级=">JavaScript</span>>JavaScript</span>""
+<span班级=<span班级=<span班级=<span班级="技能"技能""<span班级="技能
+<span班级="<span班级=<span班级=">反应</span>>反应</span>">反应</span><span班级=">反应</span>>反应</span>">反应</span>
+<span班级=<span班级="<span班级=">TypeScript</span>>TypeScript</span>>TypeScript</span>>TypeScript</span>"技能
+<span班级=<span班级=<span班级=<span班级="技能"技能">Webpack</span>>Webpack</span>“”技能">Webpack</span>>Webpack</span>"
+<span班级=<span班级="<span班级="技能">响应式设计</span>>响应式设计</span>>响应式设计</span>>响应式设计</span>“”技能
+<span班级=<span班级="<span班级=">UI/UX基础</span>>UI/UX基础</span>">UI/UX基础</span>">UI/UX基础</span>>UI/UX基础</span>">UI/UX基础</span>
+<span班级=<span班级="技能">git</span>>git</span>>git</span>>git</span>“”技能"技能“”技能"技能"
+</
+</
+
+<!
+<div班级=">班级="节">"div班级=">班级="节">"
+<h2班级=<h2班级="节标题"节标题">联系我</h2>>联系我</h2>>联系我</h2>>联系我</h2>""<h2班级="节标题">联系我</h2>>联系我</h2>>联系我</h2>>联系我</h2>"
+<ul班级="<ul班级=">>"><ul班级=">>">
+<li班级=<li班级="联系人-项目">>>>"联系人-项目“”>>>>"联系人-项目“”
+<<i班级=<<i班级=<<i班级=<<i班级="<<i班级=FAS"FA"FA"信封联系图标"></</i>"></</i>fa信封联系图标"></</i>fa信封联系图标"FA"信封联系图标"></</i>"FA"></</i>fa信封联系图标"
+<span>lihua@example.com</span>
+</li>
+<li班级="<li班级=<li班级="联系人-项目">>>>“”联系人-项目">>>>“”
+FAS
+<span><span><span><span>135-xxxx-6666</span>-xxxx-6666</span>-xxxx-6666</span>
+</li>
+<li班级=<li班级="<li班级=">>>>">>">>>>
+<<i班级=<<i班级=<<i班级=<<i班级="<<i班级=<<i班级="<<i班级="FAS"fa-map-marker-alt CONAC T-CON"FAS"></i>"conact-con"></</i>fa-map-marker-alt"fa-map-marker-alt CONAC"fa-map-marker-alt conact-con"T-CON"></</i>联系人"></i>"FAS"></i>"FAS"></</i>FAS fa-map-marker-alt"></</i>"conact-con"></</i>"fa-map-marker-alt"fa-map-marker-alt"conact-con"fa-map-marker-alt"fa-map-marker-alt"
+<span>上海市浦东新区</span>
+</li>
+<li班级=<li班级="<li班级=">>>>">>">>>>
+<<i班级=<<i班级="<<i班级=<<i班级="<<i班级="FAS"FAS"FAS"></</i>"></</i>"></</i>
+<span>www.lihua.dev</span>
+</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
